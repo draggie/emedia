@@ -26,6 +26,10 @@ namespace HeaderDecoding
                 throw ex;
             }
         }
+        public string GetFileName()
+        {
+            return _fileName;
+        }
         public bool HasFile()
         {
             return _image != null;
